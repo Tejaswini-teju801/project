@@ -1,0 +1,11 @@
+server.port=6060
+@EnableEurekaServer
+
+
+
+
+server.port=6161
+eureka.client.serviceUrl.defaultZone=http://localhost:6060/eureka
+spring.application.name=prepaidcustomer
+
+@EnableEurekaClient
